@@ -1,0 +1,34 @@
+*{
+color:black
+}
+/* Тип №1. Селектор тега */
+h1 {
+   color: brown;
+}
+/* Тип №2. Селектор класса */
+.text {
+   color: blueviolet;
+   font-style: italic;
+}
+.content-color {
+   color: crimson;
+}
+/* Тип №3. Селектор ID */
+#content {
+   color: blue;
+}
+/* все h3 с классом classical-music*/
+h3.classical-music{
+   color: cornflowerblue;
+}
+/* Все теги с классом .description-pop-music-one .description-pop-music одновременно
+без пробелов между классами */
+.description-pop-music-one.description-pop-music {
+   color: chartreuse;
+}
+/* обращаемся сразу к объектам c Классом museum-rusian,
+.museum-disney */
+.museum-rusian,
+.museum-disney {
+   color: coral;
+}
